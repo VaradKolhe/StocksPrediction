@@ -1,7 +1,7 @@
-streamlit
+streamlit 
 pandas
-matplotlib
-yfinance
-prophet
+yfinance 
+prophet 
 plotly
-scikit-learn
+scikit-learn 
+matplotlib
