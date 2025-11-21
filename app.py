@@ -112,12 +112,12 @@ def add_technical_features(df):
 
 # --- SIDEBAR NAVIGATION ---
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Home (Prophet Forecast)", "Real-Time Linear Regression"])
+page = st.sidebar.radio("Go to", ["Long-Term Trend Forecasting", "Real-Time Next-Day Predictor"])
 
 # ==========================================
 # PAGE 1: PROPHET FORECAST
 # ==========================================
-if page == "Home (Prophet Forecast)":
+if page == "Long-Term Trend Forecasting":
     st.title("📈 Long-Term Trend Forecasting")
     st.markdown("Select a company to predict future trends over months or years.")
     
@@ -156,7 +156,7 @@ if page == "Home (Prophet Forecast)":
 # ==========================================
 # PAGE 2: LINEAR REGRESSION (Multi-Company)
 # ==========================================
-elif page == "Real-Time Linear Regression":
+elif page == "Real-Time Next-Day Predictor":
     st.title("🤖 Real-Time Next-Day Predictor")
     st.markdown("Predicts the **next trading day's price** using live technical indicators.")
 
